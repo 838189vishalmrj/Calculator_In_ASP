@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Calc.aspx" />
+    <Content Include="dropdownlist.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -78,6 +79,13 @@
     </Compile>
     <Compile Include="Calc.aspx.designer.cs">
       <DependentUpon>Calc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dropdownlist.aspx.cs">
+      <DependentUpon>dropdownlist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dropdownlist.aspx.designer.cs">
+      <DependentUpon>dropdownlist.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
