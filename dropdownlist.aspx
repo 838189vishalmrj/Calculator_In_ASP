@@ -16,6 +16,27 @@
                 <asp:ListItem Text="JavaScript" Value="js"></asp:ListItem>
             </asp:DropDownList>
         </div>
+
+        <div>
+            <h2>Binding months dynamcally</h2>
+            <asp:DropDownList ID="months" runat="server" class="form-control">
+
+            </asp:DropDownList>
+        </div>
+
+        <div>
+            <h2>Binding year dynamically</h2>
+            <asp:DropDownList runat="server" ID="year"></asp:DropDownList>
+        </div>
+        <div>
+            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <asp:Button ID="btnDate" runat="server" Text="Click" OnClick="btn_Date"/>
+        </div>
+        <div>
+            <h2>File Upload</h2>
+            <asp:FileUpload ID="file_upload" runat="server" />
+            <asp:Button ID="btn" runat="server" Text="Upload File" OnClick="btn_Click" />
+        </div>
     </form>
 </body>
 </html>
